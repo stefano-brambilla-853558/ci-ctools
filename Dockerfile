@@ -8,6 +8,7 @@ RUN apt-get update -y
 RUN apt-get install -y gnupg2 openssh-client
 RUN mkdir -p ~/.ssh
 COPY bin/ssh-config.sh /usr/bin
+RUN chmod 700 /usr/bin/ssh-config.sh
 
 # enable wget *
 RUN apt-get install -y wget
