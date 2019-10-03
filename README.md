@@ -6,6 +6,7 @@ This image contains some useful tools in order to compile, test and run a c++ li
 - ssh
 - wget
 - curl
+-git
 ### Compilation
 - CMake
 - Gnu Compiler Collection (GCC)

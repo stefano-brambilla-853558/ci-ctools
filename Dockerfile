@@ -16,6 +16,9 @@ RUN apt-get install -y wget
 # enable cURL *
 RUN apt-get install -y curl
 
+# enable git 
+RUN apt-get install -y git
+
 # enable CMake
 RUN apt-get install -y cmake
 
